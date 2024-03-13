@@ -1,0 +1,32 @@
+:root{   
+    --backgroundcolor1:rgba(58, 58, 158, 0.8);
+    --backgroundcolor2:rgb(125,125,255);
+}
+h1,.description{
+    text-align:center;
+  }
+  body{
+    background-color:var(--backgroundcolor1);
+    color:black;
+  }
+  section{
+    background-color:var(--backgroundcolor2);
+    max-width:500px;
+    margin:auto;
+    width: 60vw;
+    min-width: 300px;
+    padding: 2em;
+  }
+  input,textarea,select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  .inline{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align:middle;
+  }
+  .input-textarea{
+    height:5em;
+  }
